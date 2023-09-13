@@ -10,12 +10,12 @@
       });
     });
 
-    // Clear the display
+    // Clear display
     clearButton.addEventListener('click', () => {
       display.value = '';
     });
 
-    // Calculate and display the result
+    // Calculate the result
     calculateButton.addEventListener('click', () => {
       try {
         const result = eval(display.value);
@@ -36,7 +36,7 @@
             const result = eval(input);
             document.getElementById("display").value = result;
         } catch (error) {
-            // Handle invalid expressions
+            //invalid expression
             document.getElementById("display").value = " ";
         }
     }
