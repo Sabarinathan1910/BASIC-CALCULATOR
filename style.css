@@ -4,6 +4,7 @@ body {
     justify-content: center; /* Horizontally center */
     align-items: center; /* Vertically center */
     height: 100vh; 
+    gap: 20px;
     
   }
 
@@ -36,3 +37,4 @@ body h1{
     background-color: black;
     color: white;
 }
+
