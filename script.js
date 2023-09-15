@@ -3,7 +3,7 @@
     const clearButton = document.getElementById('clear');
     const calculateButton = document.getElementById('calculate');
 
-    // Add click event listeners to number and operator buttons
+    //click event listeners
     buttons.forEach(button => {
       button.addEventListener('click', () => {
         display.value += button.dataset.value;
